@@ -61,5 +61,9 @@ class Department {
 }
 //Commit 
 class Manager extends Employee {
-    constructor(name, salary, position, department, bonus)
+    constructor(name, salary, position, department, bonus){
+        super(name, salary, position, department);
+        this.bonus = bonus;
+    }
+
 }
