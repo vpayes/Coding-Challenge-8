@@ -67,3 +67,7 @@ class Manager extends Employee {
     }
 
 }
+
+getDetails() {
+    return  console.log(`${this.name} works as a ${this.position} earning $${this.salary} per year at ${this.department} with a bonus of $${this.bonus}.`);
+}
