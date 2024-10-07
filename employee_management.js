@@ -60,3 +60,6 @@ class Department {
     }
 }
 //Commit 
+class Manager extends Employee {
+    constructor(name, salary, position, department, bonus)
+}
